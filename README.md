@@ -46,4 +46,4 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
 
 ## Contributing
 
-We welcome contributions from the community! Please feel free to submit issues, fork the repository, and send pull requests.
+I welcome contributions from the community! Please feel free to submit issues, fork the repository, and send pull requests.

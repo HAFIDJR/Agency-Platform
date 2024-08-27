@@ -105,7 +105,7 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/creatife-agency-with-cms.git
+    git clone https://github.com/rachmaadre/creatife-agency-with-cms.git
     ```
 2. **Navigate to the project directory**:
     ```sh

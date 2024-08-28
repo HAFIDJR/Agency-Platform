@@ -20,7 +20,7 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
 - **CMS**: Custom-built CMS integrated with Laravel
 - **Deployment**: Docker, AWS
 
-## User Flow Overview
+## Web Flow Overview
 ![User FLow](UserFlow.png)
 - **Landing Page**: Showcases projects, testimonials, and provides a "Hire Me" button for client bookings.
 - **Service Page**: Details the services offered by the agency.
@@ -105,7 +105,7 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/rachmaadre/creatife-agency-with-cms.git
+    git clone https://github.com/rachmaadr/creatife-agency-with-cms.git
     ```
 2. **Navigate to the project directory**:
     ```sh

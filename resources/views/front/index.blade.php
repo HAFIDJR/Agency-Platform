@@ -1,80 +1,101 @@
 @extends('front.layout.app')
 @push('after-style')
-    
 @endpush
 @section('title', 'Testing boass')
 @section('content')
 
     <section id="Header" class="flex flex-col gap-[100px] bg-portto-black relative">
-        <x-nav/>
+        <x-nav />
         <div class="hero container max-w-[1130px] mx-auto flex justify-between items-center relative">
             <div class="flex flex-col gap-[50px] h-fit w-fit text-white z-10">
-                <p class="font-semibold text-2xl">I’m Shayna 👋</p>
-                <h1 class="font-extrabold text-[80px] leading-[90px]">Professional Designer & Dev</h1>
-                <button class="font-bold text-[26px] leading-[39px] rounded-[30px] p-[30px_40px] bg-portto-purple w-fit transition-all duration-300 hover:shadow-[0_10px_20px_0_#4920E5]">Explore Now</button>
+                <p class="font-semibold text-2xl">I’m Hafid Nur Firmansyah 👋</p>
+                <h1 class="font-extrabold text-[80px] leading-[90px]">Web Developer & Data Science</h1>
+                <button
+                    class="font-bold text-[26px] leading-[39px] rounded-[30px] p-[30px_40px] bg-portto-purple w-fit transition-all duration-300 hover:shadow-[0_10px_20px_0_#4920E5]">Explore
+                    Now</button>
             </div>
             <div class="flex max-w-[471px] max-h-[567px] z-10">
                 <img src="../assets/images/hero-image.png" class="w-full h-full object-contain" alt="hero image">
             </div>
-            <img src="../assets/images/Ellipse.svg" class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2" alt="background icon">
+            <img src="../assets/images/Ellipse.svg"
+                class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2" alt="background icon">
         </div>
         <div class="company-logos w-full overflow-hidden pb-[190px]">
             <div class="group/slider flex flex-nowrap w-max items-center">
-                <div class="logo-container animate-[slide_25s_linear_infinite] group-hover/slider:pause-animate  flex gap-[70px] pl-[70px] items-center flex-nowrap">
+                <div
+                    class="logo-container animate-[slide_25s_linear_infinite] group-hover/slider:pause-animate  flex gap-[70px] pl-[70px] items-center flex-nowrap">
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                 </div>
-                <div class="logo-container animate-[slide_25s_linear_infinite] group-hover/slider:pause-animate  flex gap-[70px] pl-[70px] items-center flex-nowrap ">
+                <div
+                    class="logo-container animate-[slide_25s_linear_infinite] group-hover/slider:pause-animate  flex gap-[70px] pl-[70px] items-center flex-nowrap ">
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum1.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum2.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum3.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                     <div class="flex w-fit h-[40px] shrink-0">
-                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain" alt="logo">
+                        <img src="../assets/images/logos/logoipsum4.png" class="w-full h-full object-contain"
+                            alt="logo">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="stats container max-w-[1130px] mx-auto bg-gradient-to-r from-[#FFEDD3] to-[#FFCD83] flex justify-between items-center px-[100px] rounded-[30px] w-full h-[180px] absolute transform -translate-x-1/2 translate-y-1/2 bottom-0 left-1/2">
+        <div
+            class="stats container max-w-[1130px] mx-auto bg-gradient-to-r from-[#FFEDD3] to-[#FFCD83] flex justify-between items-center px-[100px] rounded-[30px] w-full h-[180px] absolute transform -translate-x-1/2 translate-y-1/2 bottom-0 left-1/2">
             <div class="text-center w-fit h-fit">
                 <p class="font-extrabold text-[40px] leading-[60px]">$230M</p>
                 <p class="font-semibold text-lg">Valuation</p>
@@ -102,7 +123,9 @@
         <div class="flex flex-col gap-[50px]">
             <div class="flex justify-between items-center">
                 <h2 class="font-extrabold text-[50px] leading-[70px]">Actually, I Do Design <br>& Code for Living</h2>
-                <a href="" class="font-bold text-lg bg-portto-black rounded-full w-fit h-fit p-[14px_30px] text-white transition-all duration-300 hover:bg-white hover:text-portto-black hover:ring hover:ring-portto-black">All Services</a>
+                <a href=""
+                    class="font-bold text-lg bg-portto-black rounded-full w-fit h-fit p-[14px_30px] text-white transition-all duration-300 hover:bg-white hover:text-portto-black hover:ring hover:ring-portto-black">All
+                    Services</a>
             </div>
             <div class="grid grid-cols-2 gap-[30px]">
                 <div class="p-[50px] pb-0 rounded-[30px] flex flex-col gap-[50px] bg-[#F4F5F8]">
@@ -111,7 +134,8 @@
                     </div>
                     <div class="flex flex-col gap-5">
                         <p class="font-extrabold text-[32px] leading-[48px]">High-Quality Mobile App UI/UX Design</p>
-                        <p class="text-lg leading-[34px]">Delivering great experience to users so that they are comfortable while using your product.</p>
+                        <p class="text-lg leading-[34px]">Delivering great experience to users so that they are comfortable
+                            while using your product.</p>
                     </div>
                     <div class="w-full h-[350px]">
                         <img src="../assets/images/services1.png" class="w-full object-contain" alt="image">
@@ -123,7 +147,8 @@
                     </div>
                     <div class="flex flex-col gap-5">
                         <p class="font-extrabold text-[32px] leading-[48px]">AI Business Dashboard Finance Company</p>
-                        <p class="text-lg leading-[34px]">Delivering great experience to users so that they are comfortable while using product.</p>
+                        <p class="text-lg leading-[34px]">Delivering great experience to users so that they are comfortable
+                            while using product.</p>
                     </div>
                     <div class="w-full h-[350px]">
                         <img src="../assets/images/services2.png" class="w-full object-contain" alt="image">
@@ -135,8 +160,10 @@
                             <img src="../assets/images/icons/3dcube.svg" class="w-10 h-10 object-contain" alt="icon">
                         </div>
                         <div class="flex flex-col gap-5">
-                            <p class="font-extrabold text-[32px] leading-[48px]">Robust Plugins Connected Machine Learning</p>
-                            <p class="text-lg leading-[34px]">Delivering great experience to users so that they are comfortable while using your product to grow.</p>
+                            <p class="font-extrabold text-[32px] leading-[48px]">Robust Plugins Connected Machine Learning
+                            </p>
+                            <p class="text-lg leading-[34px]">Delivering great experience to users so that they are
+                                comfortable while using your product to grow.</p>
                         </div>
                     </div>
                     <div class="w-[450px] h-[350px] flex shrink-0">
@@ -147,48 +174,67 @@
         </div>
     </section>
 
-    <section id="Projects" class=" w-full flex flex-col py-[100px] bg-[url('../assets/images/background/background1.png')] bg-cover bg-center bg-no-repeat">
+    <section id="Projects"
+        class=" w-full flex flex-col py-[100px] bg-[url('../assets/images/background/background1.png')] bg-cover bg-center bg-no-repeat">
         <div class="flex flex-col gap-[10px] mb-[50px]">
             <h2 class="font-extrabold text-[50px] leading-[70px] text-center text-white">Great Projects</h2>
             <p class="text-lg text-center text-white">Working with awesome team from around the world</p>
         </div>
-        <div class="projects w-full flex flex-col mb-[30px] overflow-hidden">    
+        <div class="projects w-full flex flex-col mb-[30px] overflow-hidden">
             <div class="group/slider slider flex flex-nowrap w-max items-center">
-                <div class="project-container animate-[slide_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap">
-                    
+                <div
+                    class="project-container animate-[slide_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap">
+
                     @forelse ($projects as $index => $project)
                         @if ($index < 3)
-                            <div class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
+                            <div
+                                class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
                                 <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover" alt="thumbnail">
+                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover"
+                                        alt="thumbnail">
                                 </div>
-                                <div class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
+                                <div
+                                    class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
                                     <div class="text-center z-10">
-                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">{{ $project->name }}
+                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">
+                                            {{ $project->name }}
                                         <p class="text-lg text-[#BABABC]">{{ $project->category }}</p>
                                     </div>
-                                    <a href="{{ route('detail', $project->slug) }}" class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View Details</a>
-                                    <img src="{{ asset('assets/images/Ellipse.svg') }}" class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2" alt="background icon">
+                                    <a href="{{ route('detail', $project->slug) }}"
+                                        class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
+                                        Details</a>
+                                    <img src="{{ asset('assets/images/Ellipse.svg') }}"
+                                        class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2"
+                                        alt="background icon">
                                 </div>
                             </div>
                         @endif
                     @empty
                     @endforelse
                 </div>
-                <div class="project-container animate-[slide_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap ">
+                <div
+                    class="project-container animate-[slide_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap ">
                     @forelse ($projects as $index => $project)
                         @if ($index < 3)
-                            <div class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
+                            <div
+                                class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
                                 <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover" alt="thumbnail">
+                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover"
+                                        alt="thumbnail">
                                 </div>
-                                <div class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
+                                <div
+                                    class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
                                     <div class="text-center z-10">
-                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">{{ $project->name }}
+                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">
+                                            {{ $project->name }}
                                         <p class="text-lg text-[#BABABC]">{{ $project->category }}</p>
                                     </div>
-                                    <a href="{{ route('detail', $project->slug) }}" class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View Details</a>
-                                    <img src="{{ asset('assets/images/Ellipse.svg') }}" class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2" alt="background icon">
+                                    <a href="{{ route('detail', $project->slug) }}"
+                                        class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
+                                        Details</a>
+                                    <img src="{{ asset('assets/images/Ellipse.svg') }}"
+                                        class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2"
+                                        alt="background icon">
                                 </div>
                             </div>
                         @endif
@@ -197,23 +243,32 @@
                 </div>
             </div>
         </div>
-        <div class="projects w-full flex flex-col overflow-hidden">    
+        <div class="projects w-full flex flex-col overflow-hidden">
             <div class="group/slider slider flex flex-nowrap w-max items-center">
-                <div class="project-container animate-[slideToR_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap">
-                    
+                <div
+                    class="project-container animate-[slideToR_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap">
+
                     @forelse ($projects as $index => $project)
                         @if ($index >= 3)
-                            <div class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
+                            <div
+                                class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
                                 <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover" alt="thumbnail">
+                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover"
+                                        alt="thumbnail">
                                 </div>
-                                <div class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
+                                <div
+                                    class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
                                     <div class="text-center z-10">
-                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">{{ $project->name }}
+                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">
+                                            {{ $project->name }}
                                         <p class="text-lg text-[#BABABC]">{{ $project->category }}</p>
                                     </div>
-                                    <a href="{{ route('detail', $project->slug) }}" class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View Details</a>
-                                    <img src="{{ asset('assets/images/Ellipse.svg') }}" class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2" alt="background icon">
+                                    <a href="{{ route('detail', $project->slug) }}"
+                                        class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
+                                        Details</a>
+                                    <img src="{{ asset('assets/images/Ellipse.svg') }}"
+                                        class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2"
+                                        alt="background icon">
                                 </div>
                             </div>
                         @endif
@@ -221,21 +276,30 @@
                     @endforelse
 
                 </div>
-                <div class="project-container animate-[slideToR_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap ">
-                    
+                <div
+                    class="project-container animate-[slideToR_50s_linear_infinite] group-hover/slider:pause-animate flex gap-[30px] pl-[30px] items-center flex-nowrap ">
+
                     @forelse ($projects as $index => $project)
                         @if ($index >= 3)
-                            <div class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
+                            <div
+                                class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
                                 <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover" alt="thumbnail">
+                                    <img src="{{ Storage::url($project->cover) }}" class="w-full h-full object-cover"
+                                        alt="thumbnail">
                                 </div>
-                                <div class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
+                                <div
+                                    class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
                                     <div class="text-center z-10">
-                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">{{ $project->name }}
+                                        <p class="font-extrabold text-[32px] leading-[48px] mb-[10px] text-white">
+                                            {{ $project->name }}
                                         <p class="text-lg text-[#BABABC]">{{ $project->category }}</p>
                                     </div>
-                                    <a href="{{ route('detail', $project->slug) }}" class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View Details</a>
-                                    <img src="{{ asset('assets/images/Ellipse.svg') }}" class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2" alt="background icon">
+                                    <a href="{{ route('detail', $project->slug) }}"
+                                        class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
+                                        Details</a>
+                                    <img src="{{ asset('assets/images/Ellipse.svg') }}"
+                                        class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-1/2"
+                                        alt="background icon">
                                 </div>
                             </div>
                         @endif
@@ -256,7 +320,8 @@
                     </div>
                     <div class="flex flex-col gap-[10px] text-center">
                         <p class="font-extrabold text-[22px] leading-[33px]">Research & Validate</p>
-                        <p class="text-lg leading-[34px]">Ensuring all requirements were matching with market conditions</p>
+                        <p class="text-lg leading-[34px]">Ensuring all requirements were matching with market conditions
+                        </p>
                     </div>
                 </div>
                 <div class="w-[350px] flex flex-col shrink-0 gap-[30px] items-center">
@@ -274,12 +339,14 @@
                     </div>
                     <div class="flex flex-col gap-[10px] text-center">
                         <p class="font-extrabold text-[22px] leading-[33px]">Deliver to Clients</p>
-                        <p class="text-lg leading-[34px]">We bring an instant results to the clients so that they are happys</p>
+                        <p class="text-lg leading-[34px]">We bring an instant results to the clients so that they are
+                            happys</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="stats container max-w-[1130px] mx-auto bg-gradient-to-r from-[#FFEDD3] to-[#FFCD83] flex justify-between items-center px-[100px] rounded-[30px] w-full h-[180px] absolute transform -translate-x-1/2 translate-y-1/2 bottom-0 left-1/2">
+        <div
+            class="stats container max-w-[1130px] mx-auto bg-gradient-to-r from-[#FFEDD3] to-[#FFCD83] flex justify-between items-center px-[100px] rounded-[30px] w-full h-[180px] absolute transform -translate-x-1/2 translate-y-1/2 bottom-0 left-1/2">
             <div class="text-center w-fit h-fit">
                 <p class="font-extrabold text-[40px] leading-[60px]">$230M</p>
                 <p class="font-semibold text-lg">Valuation</p>
@@ -305,13 +372,15 @@
 
     <section id="Testimonials" class="bg-[#F4F5F8]">
         <div class="container max-w-[1130px] mx-auto pt-[180px] pb-[100px]">
-            <h2 class="font-extrabold text-[50px] leading-[70px] text-center">I Have Delivered Success <br>For All My Clients</h2>
+            <h2 class="font-extrabold text-[50px] leading-[70px] text-center">I Have Delivered Success <br>For All My
+                Clients</h2>
             <div class="grid grid-cols-2 gap-[30px] mt-[50px]">
                 <div class="card-testi bg-white rounded-[30px] flex flex-col p-5 gap-5">
                     <div class="h-[40px] flex shrink-0">
                         <img src="../assets/images/logos/logo-testi.svg" alt="logo">
                     </div>
-                    <p class="font-semibold text-[22px] leading-[40px]">“Her working method were truly different from other freelancers, she has this kind of mindset that can create user-center product and user loved it”</p>
+                    <p class="font-semibold text-[22px] leading-[40px]">“Her working method were truly different from other
+                        freelancers, she has this kind of mindset that can create user-center product and user loved it”</p>
                     <div class="flex h-8">
                         <img src="../assets/images/icons/Star.svg" alt="star">
                         <img src="../assets/images/icons/Star.svg" alt="star">
@@ -333,7 +402,9 @@
                     <div class="h-[40px] flex shrink-0">
                         <img src="../assets/images/logos/logo-testi2.svg" alt="logo">
                     </div>
-                    <p class="font-semibold text-[22px] leading-[40px]">“She helped us to build our first prototype to win our investor and early users heart that generate huge attraction. Will hire her back again anytime soon”</p>
+                    <p class="font-semibold text-[22px] leading-[40px]">“She helped us to build our first prototype to win
+                        our investor and early users heart that generate huge attraction. Will hire her back again anytime
+                        soon”</p>
                     <div class="flex h-8">
                         <img src="../assets/images/icons/Star.svg" alt="star">
                         <img src="../assets/images/icons/Star.svg" alt="star">
@@ -355,7 +426,9 @@
                     <div class="h-[40px] flex shrink-0">
                         <img src="../assets/images/logos/logo-testi3.svg" alt="logo">
                     </div>
-                    <p class="font-semibold text-[22px] leading-[40px]">“She helped us to build our first prototype to win our investor and early users heart that generate huge attraction. Will hire her back again anytime soon”</p>
+                    <p class="font-semibold text-[22px] leading-[40px]">“She helped us to build our first prototype to win
+                        our investor and early users heart that generate huge attraction. Will hire her back again anytime
+                        soon”</p>
                     <div class="flex h-8">
                         <img src="../assets/images/icons/Star.svg" alt="star">
                         <img src="../assets/images/icons/Star.svg" alt="star">
@@ -377,7 +450,8 @@
                     <div class="h-[40px] flex shrink-0">
                         <img src="../assets/images/logos/logo-testi4.svg" alt="logo">
                     </div>
-                    <p class="font-semibold text-[22px] leading-[40px]">“Her working method were truly different from other freelancers, she has this kind of mindset that can create user-center product and user loved it”</p>
+                    <p class="font-semibold text-[22px] leading-[40px]">“Her working method were truly different from other
+                        freelancers, she has this kind of mindset that can create user-center product and user loved it”</p>
                     <div class="flex h-8">
                         <img src="../assets/images/icons/Star.svg" alt="star">
                         <img src="../assets/images/icons/Star.svg" alt="star">
@@ -399,13 +473,14 @@
         </div>
     </section>
 
-    <x-faq/>
+    <x-faq />
 
-    <x-footer/>
+    <x-footer />
 
     @push('after-script')
         <script src="{{ asset('assets/js/main.js') }}"></script>
     @endpush
-</body>
-</html>
+    </body>
+
+    </html>
 @endsection

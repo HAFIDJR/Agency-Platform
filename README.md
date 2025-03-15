@@ -19,7 +19,6 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
 - **Deployment**: Docker, AWS
 
 ## Web Flow Overview
-![User FLow](UserFlow.png)
 - **Landing Page**: Showcases projects, testimonials, and provides a "Hire Me" button for client bookings.
 - **Service Page**: Details the services offered by the agency.
 - **Pricing Page**: Lists pricing for different services.
@@ -32,7 +31,6 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
   - View information about freelancers
 
 ## Entity-Relationship Diagram (ERD) Overview
-![ERD](ERD.png)
 1. **User**
    - **Attributes**:
      - `id`: Unique identifier for the user.

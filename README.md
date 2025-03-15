@@ -1,8 +1,6 @@
 # Creative Agency with CMS
 
 Welcome to the Creative Agency with CMS repository! This project is designed to provide a comprehensive solution for creative agencies looking to manage their digital content efficiently and effectively using Laravel.
-![Landing Page](landingPage.png)
-
 
 ## Features
 
@@ -100,32 +98,6 @@ Welcome to the Creative Agency with CMS repository! This project is designed to 
    - **Type**: One-to-Many
    - **Description**: Each project can have multiple orders. The `Project_Orders` table links orders with projects.
 
-
-## Getting Started
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/rachmaadr/creatife-agency-with-cms.git
-    ```
-2. **Navigate to the project directory**:
-    ```sh
-    cd creatife-agency-with-cms
-    ```
-3. **Install dependencies**:
-    ```sh
-    composer install
-    npm install
-    ```
-4. **Set up environment variables**:
-    ```sh
-    cp .env.example .env
-    php artisan key:generate
-    ```
-5. **Run the development server**:
-    ```sh
-    php artisan serve
-    npm run dev
-    ```
 
 ## Contributing
 
